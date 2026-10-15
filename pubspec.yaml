@@ -1,0 +1,40 @@
+name: spendly
+description: "Spendly - Smart Expense Tracker & Personal Budget Manager"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.9
+  get: ^4.7.3
+  sqflite: ^2.4.4+1
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  fl_chart: ^1.2.0
+  intl: ^0.19.0
+  uuid: ^4.6.0
+  shared_preferences: ^2.5.6
+  flutter_svg: ^2.3.0
+  google_fonts: ^6.3.3
+  permission_handler: ^11.4.0
+  font_awesome_flutter: ^11.0.0
+  flutter_staggered_animations: ^1.1.1
+  shimmer: ^3.0.0
+  local_auth: ^2.3.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
